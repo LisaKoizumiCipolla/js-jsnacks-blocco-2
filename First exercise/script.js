@@ -6,6 +6,7 @@ while ( sum < 50 ){
     let i = parseInt(prompt("Insert number"));
     userNumbers.push(i);
     sum += i;
+    //sum = sum + i
     
 }
 
