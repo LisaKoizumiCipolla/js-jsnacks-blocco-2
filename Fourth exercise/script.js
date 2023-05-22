@@ -1,6 +1,9 @@
 
-const firstWord = prompt("Insert your first word!")
-const secondWord = prompt("Insert your second word!")
+const parolaUno = prompt("Insert your first word!")
+const parolaDue = prompt("Insert your second word!")
+
+
+
 
 function sameLengthOrNot (firstWord , secondWord){
     if (firstWord.length === secondWord.length){
@@ -10,10 +13,10 @@ function sameLengthOrNot (firstWord , secondWord){
     }
 }
 
-if (sameLengthOrNot = true){
-    console.log(firstWord , secondWord);
-} else if (firstWord.length > secondWord.length){
-    console.log(firstWord);
+if (sameLengthOrNot (parolaUno , parolaDue)){
+    console.log(parolaUno , parolaDue);
+} else if (parolaUno.length > parolaDue.length){
+    console.log(parolaUno);
 } else {
-    console.log(secondWord);
+    console.log(parolaDue);
 }
