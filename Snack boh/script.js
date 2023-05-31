@@ -20,7 +20,7 @@ firstUpper.forEach((element) =>{
 const upperCase = [];
 
 dragons.forEach((word) =>{
-    const newString = word.charAt(0).toUpperCase() + word.substring(1).toLocaleLowerCase();
+    const newString = word.charAt(0).toUpperCase() + word.slice(1).toLocaleLowerCase();
     upperCase.push(newString);
 })
 
